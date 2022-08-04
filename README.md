@@ -1,2 +1,2 @@
 # desigualyletal
-Page for Internacional Amnesty
+Page for International Amnesty
