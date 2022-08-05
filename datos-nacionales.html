@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html  >
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="">
+        <title>Datos Nacionales</title>
+        <link rel="stylesheet" href="./assets/css/datos-nacionales.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="text-center mb-3">DATOS NACIONALES</h1>
+                    <p class="text-center">América Latina y el Caribe es una región muy diversa. En esta sección, puedes explorar indicadores relacionados con 
+                        las distintas claves que exponemos en este informe a nivel país, así como datos sobre el impacto de la pandemia 
+                        en diferentes dimensiones. Puedes usar estos datos para hacer un diagnóstico más detallado sobre la 
+                        situación específica en tu país, o en otro país de la región que te interesa analizar. </p>
+                </div>            
+            </div>
+            <div class="row justify-content-center m-3 selector-pais">
+                <div class="col-3">
+                    <div class="form-floating">
+                        <select name='select_form' class='form-control form-select' label='Elige un país' id='select_report' list='form_list' defaulttext='(Please Select)'>
+                            <option selected value="1">Argentina</option>
+                            <option value="2">Bolivia</option>
+                            <option value="3">Brasil</option>
+                            <option value="4">Chile</option>
+                            <option value="5">Perú</option>
+                        </select>
+                        <label for="floatingSelectGrid">Elige un país</label>
+                    </div>
+                    <div class='form-row m-3 text-center' id='form_1'>
+                        <button type="button" class="btn btn-primary report_show" id="pais1">Ver</button>
+                    </div>
+                    <div class='form-row m-3 text-center d-none' id='form_2'>
+                        <button type="button" class="btn btn-primary report_show" id="pais2">Ver</button>
+                    </div>
+                    <div class='form-row m-3 text-center d-none' id='form_3'>
+                        <button type="button" class="btn btn-primary report_show" id="pais3">Ver</button>
+                    </div>
+                    <div class='form-row m-3 text-center d-none' id='form_4'>
+                        <button type="button" class="btn btn-primary report_show" id="pais4">Ver</button>
+                    </div>
+                    <div class='form-row m-3 text-center d-none' id='form_5'>
+                        <button type="button" class="btn btn-primary report_show" id="pais5">Ver</button>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class='row reporte-row d-none' id='reporte_pais1'>
+                <div class="col-12">
+                    <hr class="top">
+                    <div>
+                        <div class="d-inline-flex align-items-center header-pais">
+                            <img class="bandera" src="./assets/images/Argentina_xA0_Imagen_2_.png" alt="Argentina">
+                            <h2>Argentina</h2>
+                        </div>
+                        <div class="row metrica-content my-5">
+                            <div class="col-12 text-center m-3">
+                                <h3>Impacto del COVID-19:</h3>
+                            </div>
+                            <div class="col-md-6 text-center">
+                                <h4>Muertes y letalidad por covid-19 - (hasta Febrero 2022)</h4>
+                                <p class="metrica">1,099</p>
+                                <p class="metrica-desc">por cada millón de habitantes</p>
+                            </div>
+                            <div class="col-md-6 text-center">
+                                <h4>Tasa de letalidad - (hasta Febrero 2022)</h4>
+                                <p class="metrica">1.4%</p>
+                                <p class="metrica-desc">por cada millón de habitantes</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <hr class="top">
+                    <div class="row metrica-content">
+                        <div class="col-12 text-center">
+                            <h4 class="my-4">Cambios en niveles de pobreza y pobreza extrema: 2018 – 2020</h4>
+                        <iframe src='https://flo.uri.sh/visualisation/10747885/embed' title='Interactive or visual content' class='flourish-embed-iframe' frameborder='0' scrolling='no' style='width:100%;height:600px;' sandbox='allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation'></iframe><div style='width:100%!;margin-top:4px!important;text-align:right!important;'><a class='flourish-credit' href='https://public.flourish.studio/visualisation/10747885/?utm_source=embed&utm_campaign=visualisation/10747885' target='_top' style='text-decoration:none!important'><img alt='Made with Flourish' src='https://public.flourish.studio/resources/made_with_flourish.svg' style='width:105px!important;height:16px!important;border:none!important;margin:0!important;'> </a></div>
+                        </div>
+                        
+                    </div>
+                    <hr>
+                    <div class="row metrica-content">
+                        <div class="col-12 text-center">                        
+                            <h3 class="m-3">Claves Estructurales:</h3>
+                            <h4 class="my-4">Desigualdad previa</h4>
+                            <iframe src='https://flo.uri.sh/visualisation/10168256/embed' title='Interactive or visual content' class='flourish-embed-iframe' frameborder='0' scrolling='no' style='width:100%;height:600px;' sandbox='allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation'></iframe><div style='width:100%!;margin-top:4px!important;text-align:right!important;'><a class='flourish-credit' href='https://public.flourish.studio/visualisation/10168256/?utm_source=embed&utm_campaign=visualisation/10168256' target='_top' style='text-decoration:none!important'><img alt='Made with Flourish' src='https://public.flourish.studio/resources/made_with_flourish.svg' style='width:105px!important;height:16px!important;border:none!important;margin:0!important;'> </a></div>
+                        </div>                        
+                    </div>
+                    <hr class="top">
+                    <div class="row metrica-content">
+                        <div class="col-12 text-center">                        
+                            <h3 class="m-3">Gastos en Salud</h3>
+                        </div>
+                        <div class="col-6 text-center">                        
+                            <h4 class="my-4">Gasto público en salud</h4>
+                            <p class="metrica">5.9%</p>
+                            <p class="metrica-desc">porcentaje del PIB 2019</p>
+                            <iframe src='https://flo.uri.sh/visualisation/10168401/embed' title='Interactive or visual content' class='flourish-embed-iframe' frameborder='0' scrolling='no' style='width:100%;height:600px;' sandbox='allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation'></iframe><div style='width:100%!;margin-top:4px!important;text-align:right!important;'><a class='flourish-credit' href='https://public.flourish.studio/visualisation/10168401/?utm_source=embed&utm_campaign=visualisation/10168401' target='_top' style='text-decoration:none!important'><img alt='Made with Flourish' src='https://public.flourish.studio/resources/made_with_flourish.svg' style='width:105px!important;height:16px!important;border:none!important;margin:0!important;'> </a></div>
+                        </div>
+                        <div class="col-6 text-center">                        
+                            <h4 class="my-4">Gasto de bolsillo</h4>
+                            <p class="metrica">27.7%</p>
+                            <p class="metrica-desc">Porcentaje del gasto total en salud, 2019</p>
+                            <iframe src='https://flo.uri.sh/visualisation/10168412/embed' title='Interactive or visual content' class='flourish-embed-iframe' frameborder='0' scrolling='no' style='width:100%;height:600px;' sandbox='allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation'></iframe><div style='width:100%!;margin-top:4px!important;text-align:right!important;'><a class='flourish-credit' href='https://public.flourish.studio/visualisation/10168412/?utm_source=embed&utm_campaign=visualisation/10168412' target='_top' style='text-decoration:none!important'><img alt='Made with Flourish' src='https://public.flourish.studio/resources/made_with_flourish.svg' style='width:105px!important;height:16px!important;border:none!important;margin:0!important;'> </a></div>
+                        </div>
+                    </div>
+                    <hr class="top">
+                    <div class="row metrica-content">
+                        <div class="col-12 text-center">                        
+                            <h3 class="m-3">Recaudación de impuestos</h3>
+                        </div>
+                        <div class="col-12 text-center">                        
+                            <h4 class="my-4">Ingresos tributarios</h4>
+                            <p class="metrica">28.9%</p>
+                            <p class="metrica-desc">Como porcentaje del PIB, 2019</p>
+                            <iframe src='https://flo.uri.sh/visualisation/10313523/embed' title='Interactive or visual content' class='flourish-embed-iframe' frameborder='0' scrolling='no' style='width:100%;height:600px;' sandbox='allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation'></iframe><div style='width:100%!;margin-top:4px!important;text-align:right!important;'><a class='flourish-credit' href='https://public.flourish.studio/visualisation/10313523/?utm_source=embed&utm_campaign=visualisation/10313523' target='_top' style='text-decoration:none!important'><img alt='Made with Flourish' src='https://public.flourish.studio/resources/made_with_flourish.svg' style='width:105px!important;height:16px!important;border:none!important;margin:0!important;'> </a></div>
+                        </div>
+                    </div>
+                    <hr class="top">
+                    <div class="row metrica-content">
+                        <div class="col-12 text-center">                        
+                            <h4 class="my-4">Infraestructura del sistema publico de salud: Personal y camas</h4>
+                            <iframe src='https://flo.uri.sh/visualisation/10313528/embed' title='Interactive or visual content' class='flourish-embed-iframe' frameborder='0' scrolling='no' style='width:100%;height:600px;' sandbox='allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation'></iframe><div style='width:100%!;margin-top:4px!important;text-align:right!important;'><a class='flourish-credit' href='https://public.flourish.studio/visualisation/10313528/?utm_source=embed&utm_campaign=visualisation/10313528' target='_top' style='text-decoration:none!important'><img alt='Made with Flourish' src='https://public.flourish.studio/resources/made_with_flourish.svg' style='width:105px!important;height:16px!important;border:none!important;margin:0!important;'> </a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class='row reporte-row d-none' id='reporte_pais2'>Reporte Bolivia</div>
+            <div class='row reporte-row d-none' id='reporte_pais3'>Reporte Brasil</div>
+            <div class='row reporte-row d-none' id='reporte_pais4'>Reporte Chile</div>
+            <div class='row reporte-row d-none' id='reporte_pais5'>Reporte Perú</div>
+        
+        </div>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>  
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <script src="./assets/js/main.js"></script>
+    </body>
+</html>

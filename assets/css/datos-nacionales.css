@@ -1,0 +1,83 @@
+body {
+    background-color: #F5F3EF !important;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000;
+}
+
+.selector-pais select, .selector-pais select:focus {
+    background: #F5F3EF;
+}
+.selector-pais .form-floating label {
+    top: -20px;
+    background: #F5F3EF;
+    opacity: 1 !important;
+    left: 10px;
+}
+
+.btn-primary.report_show, .btn-primary.report_show:active, .btn-primary.report_show:focus {
+    background: #FEFF00;
+    border: 1px solid #EDEE00;
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #262626;
+    padding: 4px 30.5px;
+}
+
+.btn-primary.report_show:hover {
+    color: #fff;
+    background-color: #262626;
+    border-color: #262626;
+}
+
+.bandera {
+    margin-right: 45px;
+}
+
+hr.top {
+    margin: 74px 0px;
+}
+
+.header-pais h2, .metrica-content .metrica {
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 60px;
+    color: #000000;
+}
+
+.metrica-content h3 {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 60px;
+    color: #000;
+    text-transform: uppercase;
+}
+
+.metrica-content h4 {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #FFF;
+    background-color: #262626;
+    padding: 5px, 25px;
+    text-transform: uppercase;
+}
+
+.metrica-content .metrica-desc {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000;
+}
+
