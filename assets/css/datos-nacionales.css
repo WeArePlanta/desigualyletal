@@ -81,3 +81,17 @@ hr.top {
     color: #000;
 }
 
+@media only screen and (max-width: 600px) {
+    .metrica-content h3 {
+        font-size: 32px;
+    }
+
+    .header-pais h2, .metrica-content .metrica {
+        font-size: 44px;
+    }
+
+    .bandera {
+        margin-right: unset;
+    }
+
+}
